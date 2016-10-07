@@ -15,7 +15,27 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        let tableVC = TableViewController()
+        
+        let navi = UINavigationController(rootViewController: tableVC)
+        
+        //Set title NavigationBar
+        tableVC.title = "Contact"
+        
+        //Change title text color NavigationBar
+        navi.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName : UIColor.white, NSFontAttributeName: UIFont.boldSystemFont(ofSize: 25)]
+        
+        //Change color NavigationBar
+        navi.navigationBar.barTintColor = UIColor.brown
+        
+        //Change status bar color. Note: Set "View controller-based status bar appearance" to No in your Info.plist
+        UIApplication.shared.statusBarStyle = UIStatusBarStyle.lightContent
+        
+        self.window?.rootViewController = navi
+        self.window?.makeKeyAndVisible()
+        
         return true
     }
 
