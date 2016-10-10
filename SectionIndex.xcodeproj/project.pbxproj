@@ -12,6 +12,9 @@
 		1E4F80911DA73D75007CFBD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E4F808F1DA73D75007CFBD8 /* LaunchScreen.storyboard */; };
 		1E4F80991DA73E18007CFBD8 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4F80981DA73E18007CFBD8 /* TableViewController.swift */; };
 		1E4F809B1DA749DE007CFBD8 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4F809A1DA749DE007CFBD8 /* Person.swift */; };
+		1EFD95911DAB4C9100AC1607 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFD95901DAB4C9100AC1607 /* DetailVC.swift */; };
+		1EFD95941DAB55EB00AC1607 /* Martz90-Circle-Messages.ico in Resources */ = {isa = PBXBuildFile; fileRef = 1EFD95921DAB55EB00AC1607 /* Martz90-Circle-Messages.ico */; };
+		1EFD95951DAB55EB00AC1607 /* telephone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1EFD95931DAB55EB00AC1607 /* telephone.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		1E4F80921DA73D75007CFBD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E4F80981DA73E18007CFBD8 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		1E4F809A1DA749DE007CFBD8 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		1EFD95901DAB4C9100AC1607 /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		1EFD95921DAB55EB00AC1607 /* Martz90-Circle-Messages.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "Martz90-Circle-Messages.ico"; sourceTree = "<group>"; };
+		1EFD95931DAB55EB00AC1607 /* telephone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = telephone.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +60,12 @@
 		1E4F80851DA73D75007CFBD8 /* SectionIndex */ = {
 			isa = PBXGroup;
 			children = (
+				1EFD95921DAB55EB00AC1607 /* Martz90-Circle-Messages.ico */,
+				1EFD95931DAB55EB00AC1607 /* telephone.jpg */,
 				1E4F80861DA73D75007CFBD8 /* AppDelegate.swift */,
 				1E4F80981DA73E18007CFBD8 /* TableViewController.swift */,
 				1E4F809A1DA749DE007CFBD8 /* Person.swift */,
+				1EFD95901DAB4C9100AC1607 /* DetailVC.swift */,
 				1E4F808D1DA73D75007CFBD8 /* Assets.xcassets */,
 				1E4F808F1DA73D75007CFBD8 /* LaunchScreen.storyboard */,
 				1E4F80921DA73D75007CFBD8 /* Info.plist */,
@@ -123,8 +132,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EFD95951DAB55EB00AC1607 /* telephone.jpg in Resources */,
 				1E4F80911DA73D75007CFBD8 /* LaunchScreen.storyboard in Resources */,
 				1E4F808E1DA73D75007CFBD8 /* Assets.xcassets in Resources */,
+				1EFD95941DAB55EB00AC1607 /* Martz90-Circle-Messages.ico in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E4F809B1DA749DE007CFBD8 /* Person.swift in Sources */,
+				1EFD95911DAB4C9100AC1607 /* DetailVC.swift in Sources */,
 				1E4F80871DA73D75007CFBD8 /* AppDelegate.swift in Sources */,
 				1E4F80991DA73E18007CFBD8 /* TableViewController.swift in Sources */,
 			);
@@ -291,6 +303,7 @@
 				1E4F80971DA73D75007CFBD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
